@@ -38,14 +38,12 @@ printf("execv failed \n");
 }
 else if (WEXITSTATUS(status) != 127) 
 {
-printf("Program terminated normally, but returned a 
-non-zero status\n");
+printf("Program terminated normally, but returned a non-zero status\n");
 }
 else 
 {
 printf("Program didn't terminate normally\n");
 }
-38
 }
 else 
 {
